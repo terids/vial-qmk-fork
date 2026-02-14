@@ -18,6 +18,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+// Vial Configuration
+#define VIAL_KEYBOARD_UID {0x3B, 0x6B, 0xA0, 0x29, 0x80, 0x56, 0xED, 0xD3}
+#define VIAL_UNLOCK_COMBO_ROWS {0, 0}
+#define VIAL_UNLOCK_COMBO_COLS {0, 1}
+
+#undef DYNAMIC_KEYMAP_LAYER_COUNT
+#define DYNAMIC_KEYMAP_LAYER_COUNT 4
+
 /* Select hand configuration */
 
 #if !defined(MASTER_RIGHT) && !defined(MASTER_LEFT)
@@ -26,3 +34,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define ONESHOT_TAP_TOGGLE 10
 #define ONESHOT_TIMEOUT 1000
+#define SPECULATIVE_HOLD
