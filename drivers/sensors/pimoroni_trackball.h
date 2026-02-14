@@ -19,7 +19,7 @@
 #include <stdint.h>
 #include "report.h"
 #include "i2c_master.h"
-#include "pointing_device.h"
+#include "quantum/pointing_device/pointing_device.h"
 
 #ifndef PIMORONI_TRACKBALL_ADDRESS
 #    define PIMORONI_TRACKBALL_ADDRESS 0x0A
